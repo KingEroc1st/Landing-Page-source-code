@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="" id="color-style">
+    <title>E-M-Design</title>
+</head>
+<body>
+    <nav class="s2">
+        <div class="container">
+            <div class="nav-wrapper">                
+                <div class="logo">
+                    <a title="Go to My Personal Website" target="_blank" href="http://main.e-m-design.net/"><img src="/img/logo1.png" class="logo-img"></a>
+                    <img src="img/logo hidden1.png" class="logo-hidden">
+                </div>
+
+                <div class="nav-links">
+                    <a title="About" href="#about">Who/What</a>
+                    <a title="Advantage" href="#advantage">Why</a>
+                    <a title="Contact" href="#contact">Where/When</a>
+                </div>   
+            </div>
+        </div>
+    </nav>
+
+    <section class="s1" id="about">
+        <div class="container"> 
+                <div class="about-text">
+                    <h1>Hello&Welcome<br>2<br><span>E-M-Design</span></h1>
+                    <p>Your Next Web Developer</p>
+                </div>
+
+            <div class="about-wrapper">
+                <div class="left-col">
+                    <img src="img/profilepic.jpg" class="profile-img">
+                    <h3>Who I Am</h3>
+                    <p>My name is Eric, a self taught front end developer starting my journey through the matrix of codes. Although new, my problem solving nature allows me to keep my head above water.<br> In a "past life" I've gone to business school, done door to door sales, attempted a career in competitive gaming and cooked at restaurants...picking up valuable skills along the way. </p>
+                </div>
+                
+                <div class="right-col">
+                    <h3>What I Do</h3>
+                    <p>While on my way to mastering HTML, CSS and JavaScript, I'm also expanding my horizons towards React, Nodejs, Django, etc...My goal is to quickly become a full stack developer well versed in most of the programming languages, and possibly transition into software engineering in the future. I am obssesed about learning to code and would love any opportunities that allow me to continue doing so.</p>
+                    <h5>Color Modes</h5>
+                    <div class="color-options-wrapper">
+                        <div title="Light" data-mode="light" class="color-switch" id="light-mode"></div>
+                        <div title="Dark" data-mode="dark" class="color-switch" id="blue-mode"></div>
+                        <div title="Orcish Green" data-mode="green" class="color-switch" id="green-mode"></div>
+                        <div title="Mustang Purple" data-mode="purple" class="color-switch" id="purple-mode"></div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s1" id="advantage">
+        <div class="container">
+            <h2>Why Choose Me</h2>
+            <div class="adv-wrapper">
+                <div class="left-col">
+                    <div class="img-overlay">
+                        <img src="img/pic1.jpg" class="adv-img">
+                        <div class="adv-detail">
+                            <ul>
+                                <li>always expanding arsenal of skills</li>
+                                <li>Double Time? Any Time! excute with determination</li>
+                                <li>victory through teamwork</li>
+                                <li>Improvise...Adapt...Overcome!!! with a do or die attitude</li>
+                            </ul>    
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>I AM the <br>Competitive Advantage</h3>
+                    </div>
+                </div>
+
+                <div class="left-col">
+                    <div class="img-overlay">
+                        <img src="img/pic2.jpg" class="adv-img">
+                        <div class="adv-detail">
+                            <ul>
+                                <li>enjoying what I do...it's not work but play</li>
+                                <li>ability to thrive in a fast paced high stress environment</li>
+                                <li>consistancy, in performance and mentality</li>
+                                <li>love the grind, through simple work one achieves mastery</li>
+                            </ul>    
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Aptitude to <br>Stay in the Heat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="profile-links">
+                    <h4>Let's Connect</h4>
+                    <p>I reside in the city of Toronto and would LOVE any career or networking opportunities! You can leave a message below, or reach me through my contact info provided below along with some of my pages:</p>
+                    <div class="icons">
+                        <a href="https://github.com/KingEroc1st" target="_blank" title="my Github page"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://codepen.io/collection/yrgOzP" target="_blank" title="my Codepen page"><i class="fa-brands fa-codepen"></i></a>
+                        <a id="popupbtn1" title="my phone#"><i class="fa-solid fa-phone"></i></a>
+                        <a id="popupbtn2" title="my email@"><i class="fa-solid fa-envelopes-bulk"></i></a>
+                        <a href="https://www.linkedin.com/in/e-m-design/" target="_blank" title="my Linkedin page"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <form id="form" action="https://formsubmit.co/admin@e-m-design.net" method="POST">
+                    <!--        TRAP        -->
+                    <input type="text" name="_trap" style="display: none;">
+
+                    <!--        DISABLE CAPTCHA      -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!-- <input type="hidden" name="_next" value="http://e-m-design.net"> -->
+
+                    <label>Name</label>
+                    <input type="text" class="input" name="name" required>
+   
+                    <label>Subject</label>
+                    <input type="text" class="input" name="subject">
+   
+                    <label>Email</label>
+                    <input type="email" class="input" name="email" required>
+   
+                    <label>Message</label>
+                    <textarea class="input" name="message" required></textarea>
+   
+                   <input type="submit" id="submitbtn">
+   
+                </form>
+            </div>            
+        </div>
+        <div class="container">
+            <div class="popup" id="popup1">
+                <div class="popup-text">
+                    <h3>THANK YOU!</h3>
+                    <p>for your interest</p>
+                    <h2>1-647-568-0863</h2>
+                </div>
+                <div class="popup-btns">
+                    <a href="tel:647-568-0863">Call Now!</a>
+                    <a class="closebtn">Close</a>
+                </div>
+            </div>
+            <div class="popup" id="popup2">
+                <div class="popup-text">
+                    <h3>THANK YOU!</h3>
+                    <p>for your interest</p>
+                    <h2>admin@e-m-design.net</h2>
+                </div>
+                <div class="popup-btns">
+                    <a href="mailto:admin@e-m-design.net">Email Now!</a>
+                    <a class="closebtn">Close</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
